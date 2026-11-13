@@ -1,0 +1,9 @@
+# Installed by the bundle patch: one row, ECNU defaults pre-filled.
+- insert:
+    - id: chatecnu-music
+      name: '@eduwork/dsh-tool-ecnu-music'
+      config:
+          baseURL: "https://chat.ecnu.edu.cn/open/api/v1"
+          baseURLEnv: "CHATECNU_SERVICE_BASE_URL"
+          credentialRef: "EDUWORK_API_KEY"
+          oidcProfileId: "ecnu"
